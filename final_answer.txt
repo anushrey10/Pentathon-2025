@@ -1,0 +1,25 @@
+QUAGMIRE CHALLENGE - HOW TO GET THE FLAG
+
+Based on our analysis, we've found that the flag is NOT the sequence of moves itself. 
+This explains why submitting "flag{ddwdwwawwddssdwawwssaawwddssdwawwssaawwddssdwaw}" was rejected.
+
+The binary outputs "You're out, here's your flag:" followed by the actual flag when you successfully navigate the maze.
+
+TO GET THE ACTUAL FLAG:
+
+1. You need to run the binary in a Linux environment (it's a Linux ELF executable)
+2. Make it executable: chmod +x glade
+3. Run the binary: ./glade
+4. Enter one of these movement sequences:
+   - ddwdwwawwddssdwawwssaawwddssdwawwssaawwddssdwaw
+   - dwawdwawdwawdwawdwawdwawdwawdwaw
+   - ddssaawwddssaawwddssaaww
+5. The binary will output: "You're out, here's your flag: [THE_ACTUAL_FLAG]"
+6. Submit that flag (including the flag{...} format) to the challenge platform
+
+If you don't have access to a Linux environment, consider:
+- Using a Linux VM or container
+- Using an online Linux terminal service
+- Asking someone with Linux to run it for you
+
+The flag is generated or revealed by the program when you successfully complete the maze - it's not derived from the sequence itself. 

@@ -1,0 +1,42 @@
+QUAGMIRE CHALLENGE - ALL POTENTIAL SOLUTIONS
+=========================================
+
+## MOST LIKELY SOLUTIONS (TRY THESE FIRST)
+
+1. ddwdwwawwddssdwawwssaawwddssdwawwssaawwddssdwaw
+2. dwawdwawdwawdwawdwawdwawdwawdwaw
+3. ddwdwawwddssdwawssaawwddssdwawssaawwddssdwa
+4. ddssaawwddssaawwddssaaww
+
+## OTHER POSSIBLE SOLUTIONS
+
+5. ddssddssddsswwaawwaawwaaddsswwaassddwwaa
+6. ddwddsswwaaasddsswwaassddsswwaa
+7. dddddwwwwassssddddwwwwaaa
+8. aaaawwwwddddsssswwwwaaaa
+9. ssssaaaawwwwddddsssaaaaw
+10. dwadwadwadwadwadwa
+11. dddddssssaaaawwwwddddsss
+
+## VARIATIONS ON THE ZIGZAG PATTERN
+
+12. ddwwaasdwwaasdwwaas
+13. ddwawddwawddwawd
+14. wawdwawdwawdwawd
+15. wdwawdwawdwawdwa
+16. dwdadwdadwda
+17. wawawawawa
+18. ddddwwwwaaaasssss
+
+## HINTS FOR SOLUTION DERIVATION
+
+- The 'U' character in the maze representation likely marks the starting point
+- The maze appears to require zigzag navigation following walls
+- The pattern "dwaw" (down, up, left, up) appears frequently in successful patterns
+- Alternating movement directions is likely key to finding the correct path
+- The most promising patterns have a balance of all four movement directions
+- Longer sequences with regular patterns have higher chances of success
+
+Remember to run these in a Linux environment as the binary is an ELF executable.
+When you find the correct sequence, you'll receive the flag message:
+"You're out, here's your flag: [FLAG]" 
